@@ -77,4 +77,43 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/inboxbutton" />
 
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="124dp"
+        android:layout_height="77dp"
+        app:srcCompat="@drawable/dataimage"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="137dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/imagesimage"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="126dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/videosimage"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="452dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="147dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/codeimage"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="460dp" />
+
 </android.support.constraint.ConstraintLayout>
