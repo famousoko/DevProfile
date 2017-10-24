@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/devslopesbanner" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/logo"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="32dp"
@@ -35,7 +35,7 @@
         android:layout_marginTop="48dp"
         android:text="Devslopes"
         android:textSize="32sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/logo"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
@@ -98,7 +98,7 @@
         app:layout_constraintDimensionRatio="w,9:16"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
         app:srcCompat="@drawable/dataimage" />
 
     <ImageView
@@ -141,4 +141,19 @@
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:srcCompat="@drawable/codeimage" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#C6512F"
+        android:text="Customize Dashboard"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 </android.support.constraint.ConstraintLayout>
